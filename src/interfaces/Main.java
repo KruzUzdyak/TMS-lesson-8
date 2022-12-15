@@ -11,6 +11,8 @@ public class Main {
         Chrome c1 = new Chrome();
         Viber v1 = new Viber();
 
+
+
         Application.currentDate();
 
         Application[] apps = new Application[]{t1, t2, c1, v1};

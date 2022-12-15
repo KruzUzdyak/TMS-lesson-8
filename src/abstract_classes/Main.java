@@ -17,5 +17,18 @@ public class Main {
         for (Shape shape : shapes) {
             System.out.println(shape + " " + shape.calculateSquare());
         }
+
+        double square1 = shape1.getSquare();
+        double square2 = shapes[0].getSquare();
+        Shape sh = shapes[0];
+
+        System.out.println(square1);
+        System.out.println(square2);
+        System.out.println(sh);
+
+        for (int i=0; i< shapes.length; i++) {
+            double square3 = shapes[i].getSquare();
+        }
+
     }
 }
